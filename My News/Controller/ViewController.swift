@@ -77,6 +77,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         toNewsDetail.urlWeb = self.newsModel[indexPath.item].url
         
+        tableView.deselectRow(at: indexPath, animated: true)
+        
         show(toNewsDetail, sender: self)
         
     }

@@ -16,6 +16,7 @@
 		8392ABEF230837A700F73EB7 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392ABEE230837A700F73EB7 /* News.swift */; };
 		8392ABF42308447E00F73EB7 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392ABF32308447E00F73EB7 /* NewsCell.swift */; };
 		8392ABF62308F69C00F73EB7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8392ABF52308F69C00F73EB7 /* Default-568h@2x.png */; };
+		8392ABF8230A781400F73EB7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392ABF7230A781400F73EB7 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		8392ABEE230837A700F73EB7 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		8392ABF32308447E00F73EB7 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		8392ABF52308F69C00F73EB7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8392ABF7230A781400F73EB7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		C84D6532BFFAF822AA923F00 /* Pods-My News.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My News.release.xcconfig"; path = "Target Support Files/Pods-My News/Pods-My News.release.xcconfig"; sourceTree = "<group>"; };
 		CD2EA3CA88816B9E661481E9 /* Pods-My News.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My News.debug.xcconfig"; path = "Target Support Files/Pods-My News/Pods-My News.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +103,7 @@
 			children = (
 				83488F342303ED070000A4A4 /* ViewController.swift */,
 				8392ABF32308447E00F73EB7 /* NewsCell.swift */,
+				8392ABF7230A781400F73EB7 /* DetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			files = (
 				8392ABEF230837A700F73EB7 /* News.swift in Sources */,
 				83488F352303ED070000A4A4 /* ViewController.swift in Sources */,
+				8392ABF8230A781400F73EB7 /* DetailViewController.swift in Sources */,
 				8392ABF42308447E00F73EB7 /* NewsCell.swift in Sources */,
 				83488F332303ED070000A4A4 /* AppDelegate.swift in Sources */,
 			);

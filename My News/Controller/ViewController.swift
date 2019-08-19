@@ -40,7 +40,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             let title = json["articles"][articleJSON]["title"].string
             let newsDescription = json["articles"][articleJSON]["description"].string
             let imgURL = json["articles"][articleJSON]["urlToImage"].string
+            let url = json["articles"][articleJSON]["url"].string
             
+            news.url = url
             news.judul = title
             news.deskripsi = newsDescription
             news.imgUrl = imgURL
@@ -68,6 +70,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let story = UIStoryboard(name: "Main", bundle: Bundle.main)
+        
+        let toNewsDetail = story.instantiateViewController(withIdentifier: "newsDetail") as! DetailViewController
+        
+        toNewsDetail.urlWeb = self.newsModel[indexPath.item].url
+        
+        show(toNewsDetail, sender: self)
         
     }
     
